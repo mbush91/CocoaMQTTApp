@@ -1,0 +1,100 @@
+# Xcode
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+!*.xcodeproj/project.pbxproj
+*.xcscmblueprint
+
+# Swift Package Manager
+Packages/
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Archives
+*.xcarchive
+
+# Dsym
+*.dSYM.zip
+*.dSYM
+
+# Playground
+timeline.xctimeline
+playground.xcplayground
+
+# Certificates
+*.cer
+*.mobileprovision
+*.ios
+*.pem
+*.p12
+*.der
+
+# Provisioning profiles
+*.provisionprofile
+
+# App Icons and Launch Images
+*.xcassets/AppIcon.appiconset/Icon-App-*.png
+*.xcassets/AppIcon.appiconset/*.png
+
+# Build folders
+build/
+*.ipa
+*.app
+
+# Other
+*.DS_Store
+*.swp
+*.lock
+*.orig
+*.mode1v3
+*.mode2v3
+*.hmap
+*.ipa
+*.app.dSYM
+
+# Swift Package Manager
+/.build/
+
+# Logs
+*.log
+
+# SwiftPM binaries
+/.swiftpm/xcode/
+
+# Temporary
+*~
+
+# Sensitive files (adjust based on project needs)
+.env
+config.json
+
+# Xcode Server
+.xccheckout
+*.xcconfig
+
+# Bundler
+/.bundle/
+/Gemfile.lock
+
+# SPM Packages
+/Packages/
+
+# Dependency manager
+/.metadata/
